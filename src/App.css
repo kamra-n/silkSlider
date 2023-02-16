@@ -1,0 +1,90 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.main-container {
+  display: flex;
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.slider-right-side {
+  width: 20%;
+  height: 500px;
+}
+
+.slider-left-side {
+  width: 80%;
+  height: 500px;
+}
+
+.verticalSlider {
+  /* background-color: red; */
+  height: 100%;
+  position: relative;
+  padding: 1rem;
+  overflow: hidden;
+
+}
+
+.horizontalSlider {
+  height: 100%;
+  position: relative;
+  /* overflow: hidden; */
+
+  width: 100%;
+}
+
+.nextIconVertical {
+  background-color: gray;
+  /* padding: .5rem 4rem; */
+  width: 100%;
+  position: absolute;
+  height: 20px;
+  left: 50%;
+  transform: translate(-50%, 0);
+  bottom:  -3px;
+  border-radius: 12% 12% 0% 0% / 7% 7% 10% 10% ;
+
+}
+
+.prevIconVertical {
+  background-color: gray;
+  /* padding: .5rem 4rem; */
+  width: 100%;
+  position: absolute;
+  height: 20px;
+  left: 50%;
+  transform: translate(-50%, 0);
+  top: -3px;
+  border-radius: 12% 12% 0% 0% / 7% 7% 10% 10% ;
+
+}
+
+/* .imageClass{
+  width: 100%;
+  object-fit: cover;
+} */
+
+
+
+
+
+.nextIconHorizontal {
+  background-color: gray;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%,-50%);
+  left: 0px;
+}
+
+.prevIconHorizontal {
+  background-color: gray;
+  position: absolute;
+  top: 50%;
+    transform: translate(-50%,-50%);
+  right: 0px;
+
+}
